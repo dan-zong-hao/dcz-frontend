@@ -11,6 +11,7 @@ Displaying all the projects
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Build](#build)
 - [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
@@ -34,6 +35,16 @@ npm install
    npm run start
    ```
 3. Open your browser and navigate to `http://localhost:3000`.
+
+## Build
+
+To create a production build of the project, run the following command:
+
+```sh
+npm run build
+```
+
+This will create a `build `folder with all the optimized files. You can then deploy the contents of this folder to your production server.
 
 ## Features(main point)
 
@@ -62,9 +73,24 @@ npm install
 ## Contributing
 
 1. Fork the repository.
-2. Create your feature branch (git checkout -b feature/YourFeature).
-3. Commit your changes (git commit -m 'Add some feature').
-4. Push to the branch (git push origin feature/YourFeature).
+2. Create your feature branch
+
+```sh
+git checkout -b feature/YourFeature
+```
+
+3. Commit your changes
+
+```sh
+git commit -m 'Add some feature'
+```
+
+4. Push to the branch
+
+```sh
+git push origin feature/YourFeature
+```
+
 5. Open a pull request.
 
 ## License
